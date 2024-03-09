@@ -4,19 +4,24 @@
     padding: 0;
 }
 
+:root {
+    font-size: 18px;
+}
+
+html {
+    /*    font-size: 20px;*/
+}
+
 body {
     background-color: #8bc34a;
     color: #000;
-    font-size: 15px;
 }
-/*body {*/
-/*    font-size: 20px;*/
-/*}*/
 
 main {
     display: flex;
     align-items: flex-end;
 }
+
 
 .kitten {
     margin: 1rem;
@@ -25,4 +30,7 @@ main {
     padding: 1rem;
     text-align: center;
     width: 25vw;
+}
+.kitten p {
+font-size: 0.8rem;
 }

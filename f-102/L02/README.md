@@ -5,8 +5,7 @@
 https://github.com/GregorySVD/Zero2Junior
 
 ## Zadanie
-![Template-Cats-Gallery](Zero2Junior/f-102
-/Cats-gallery-template.png)
+![Template-Cats-Gallery](../Cats-gallery-template.png)
 
 
 1. odtwórz galerię kotów tak jak na screenie powyżej (nie musi być pixel-perfect)

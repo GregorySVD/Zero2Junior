@@ -2,12 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width"/>
-    <title>Z2J Calcy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Z2J Kalkulator</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+<main>
+    <header>
+        <button id="refresh">
+            <a href="index.html"> Try again!</a>
+        </button>
+        <h1>Z2J - Kalkulator</h1>
+    </header>
+    <article class="task">
+        <ul>
+            <li> ✅ Wstaw każdą operację matematyczną do osobnej funkcji, przyjmującej pierwszą i drugą liczbę jako
+                parametry.
+            </li>
+            <li>✅ W przypadku dzielenia, obsłuż przypadek dzielenia przez zero wewnątrz tej funkcji. To główny cel tego
+                całego zabiegu.
+            </li>
+            <li>✅ Dodaj możliwość wykonywania kolejnych operacji, bazujących na ostatnim wyniku działania.</li>
+        </ul>
+        <p>
+            <em>Przykład:</em> Obliczasz 2+2=4, następnie pojawia się okno na kolejny operator arytmetyczny. Po nim
+            pojawia
+            się okno “Podaj kolejną liczbę”. Załóżmy że wynik z poprzedniego działania chcemy pomnożyć razy 3.
+            Powinniśmy otrzymać 12, po czym kolejne pytanie o operator i liczbę. I tak w kółko aż do momentu zostawienia
+            pustego pola w pytaniu o operator.
+        </p>
+    </article>
+    <footer>
+        <p>
+            Created by <a href="https://github.com/GregorySVD" target="_blank"><em>@GTerenda</em></a>
+        </p>
+    </footer>
+</main>
 <script src="script.js">
-
 </script>
 </body>
 </html>

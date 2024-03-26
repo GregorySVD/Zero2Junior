@@ -1,0 +1,75 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.2rem;
+    background-color: #353535;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #5b5b5b;
+    margin: 0 25%;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+h1 {
+    padding: 1.5rem;
+}
+
+#refresh {
+    padding: 1.0rem 1.5rem;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #00d26a;
+    border: 2px solid #fff;
+    transition: transform 0.5s ease;
+}
+
+#refresh:hover {
+    transform: scale(1.1);
+}
+
+#refresh a {
+    text-decoration: none;
+}
+
+#refresh a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.task ul li {
+    list-style-type: none;
+    margin: 0.3rem;
+}
+
+article p {
+    font-size: 0.8rem;
+}
+
+footer {
+    margin-top: 1.5rem;
+}
+footer a{
+    text-decoration: none;
+    color: #00d26a;
+}
+footer a:visited {
+    color: #00d26a;
+}
